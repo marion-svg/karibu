@@ -1,0 +1,31 @@
+img{border: radius 9px; ;}
+h2{color: red;}
+h2{ 
+    font-size: 60px;
+    text-decoration: dotted;
+}
+.yellow{
+    color: rgb(8, 0, 255);
+}
+.green{
+    color: rgb(245, 18, 18);
+}
+#table{ background-color: aquamarine;}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.reservation{
+    border: 2px solid white;
+    padding-left: 4px;
+    margin-bottom: 10px;
+}
+.login{
+    border: 2px solid white;
+    padding-left: 6px;
+    margin-bottom: 10px;
+}
