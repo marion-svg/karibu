@@ -35,7 +35,7 @@ h2{
 .green{
     color: rgb(245, 18, 18);
 }
-#table{ background-color: aquamarine;}
+#table{ background-color: rgb(39, 119, 92);}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -54,3 +54,24 @@ th, td {
     padding-left: 6px;
     margin-bottom: 10px;
 }
+table tr,td,th{ border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    width: 50%;
+}
+ .reservation{
+    display: none;
+    position: relative;
+    top: 10px;
+    left: 10px;
+ }
+ 
+ .poplist{
+    display: inline-block;
+    text-align: left;
+ }
+ .popcontainer{
+    text-align: center;
+ }
+   

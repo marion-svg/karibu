@@ -17,7 +17,7 @@
 <div>
     <h2 style="color: rgba(84, 204, 228, 0.269);text-align: center;">our menu</h2>
     
-    <table border="1" style="background-color: bisque; margin: auto;">
+    <table style="background-color: bisque; margin: auto;">
         <th>meal</th>
         <th>description</th>
         <th>price(ksh)</th>
@@ -43,15 +43,16 @@
         </tr>
     </table>
 </div>
-
+<div class="popcontainer">
 <h2 style="color: bisque; text-align: center;">popular items</h2>
 
-<ol style="list-style: square;">
+<ol style="list-style: square;" class="poplist" >
     <li>pilau</li>
     <li>chicken&chips</li>
     <li>ugali&sukuma</li>
     <li>chapati&beans</li>
 </ol>
+</div>
 
 <h2 style="color: black;text-align: center;">customer Login</h2>
 
@@ -66,10 +67,10 @@
 
     <input type="button" value="login">
 </form>
-
+<div class="reservation">
 <h2 style="color: black;text-align: center;">make a reservation</h2>
 
-<form action=""class="reservation"> 
+<form action="" > 
     <label for="name">name:</label><br>
     <input type="text"nameid="name"><br>
     <label for="email">email</label><br>
@@ -81,5 +82,6 @@
     
 <input type="button" value="make a reservation">
 </form> 
+</div>
 </body>
 </html>
